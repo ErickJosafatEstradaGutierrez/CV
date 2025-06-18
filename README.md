@@ -1,72 +1,75 @@
-# Node Version
-22.13.0
-# Getting Started with Create React App
+Descripción
+Este proyecto es un currículum vitae digital estático desarrollado con React. Muestra la información profesional de Erick Josafat Estrada Gutiérrez, incluyendo su educación, habilidades técnicas y experiencia profesional.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tecnologías utilizadas
+React
 
-## Available Scripts
+CSS (para estilos básicos)
 
-In the project directory, you can run:
+HTML5
 
-### `npm start`
+Estructura del proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+github/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.css
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+Características
+Diseño responsive
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Sección de información personal con foto
 
-### `npm test`
+Sección de educación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Listado de habilidades técnicas
 
-### `npm run build`
+Experiencia profesional
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cómo ejecutar el proyecto
+Clonar el repositorio:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git clone [URL del repositorio]
+cd [nombre-del-repositorio]
+Instalar dependencias:
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
+Iniciar la aplicación:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
+Personalización
+Para personalizar este CV con tu información:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Abre el archivo src/App.js
 
-## Learn More
+Modifica los siguientes elementos:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+URL de la imagen de perfil
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Nombre completo y título profesional
 
-### Code Splitting
+Ubicación y edad
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Información educativa
 
-### Analyzing the Bundle Size
+Lista de habilidades
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Experiencia laboral
 
-### Making a Progressive Web App
+Despliegue
+Puedes desplegar este CV estático en:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+GitHub Pages
 
-### Advanced Configuration
+Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Vercel
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Firebase Hosting
